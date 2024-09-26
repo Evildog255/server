@@ -51,7 +51,6 @@ CREATE PROCEDURE [dbo].[Organization_Update]
     @MaxAutoscaleSmSeats INT = null,
     @MaxAutoscaleSmServiceAccounts INT = null,
     @SecretsManagerBeta BIT = 0,
-    @LimitCollectionCreationDeletion BIT = null, -- Deprecated https://bitwarden.atlassian.net/browse/PM-10863
     @LimitCollectionCreation BIT = null,
     @LimitCollectionDeletion BIT = null,
     @AllowAdminAccessToAllCollectionItems BIT = 0
